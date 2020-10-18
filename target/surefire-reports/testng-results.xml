@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105055" started-at="2020-10-18T16:22:27 IST" finished-at="2020-10-18T16:24:12 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="105055" started-at="2020-10-18T16:22:27 IST" finished-at="2020-10-18T16:24:12 IST">
+      <class name="MyinfoTestCases.TC_Myinfo_002">
+        <test-method status="PASS" signature="browser()[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="browser" is-config="true" duration-ms="10422" started-at="2020-10-18T16:22:52 IST" finished-at="2020-10-18T16:23:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="verifyUser" duration-ms="7751" started-at="2020-10-18T16:23:02 IST" data-provider="getData" finished-at="2020-10-18T16:23:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adminadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="browser" is-config="true" duration-ms="10400" started-at="2020-10-18T16:23:10 IST" finished-at="2020-10-18T16:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="verifyUser" duration-ms="7248" started-at="2020-10-18T16:23:20 IST" data-provider="getData" finished-at="2020-10-18T16:23:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="browser" is-config="true" duration-ms="10462" started-at="2020-10-18T16:23:28 IST" finished-at="2020-10-18T16:23:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="verifyUser" duration-ms="7354" started-at="2020-10-18T16:23:38 IST" data-provider="getData" finished-at="2020-10-18T16:23:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adminadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:MyinfoTestCases.TC_Myinfo_002@2758fe70]" name="teatDown" is-config="true" duration-ms="635" started-at="2020-10-18T16:24:11 IST" depends-on-methods="MyinfoTestCases.TC_Myinfo_001.tearDown" finished-at="2020-10-18T16:24:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- MyinfoTestCases.TC_Myinfo_002 -->
+      <class name="MyinfoTestCases.TC_Myinfo_001">
+        <test-method status="PASS" signature="setupExtentReports()[pri:0, instance:MyinfoTestCases.TC_Myinfo_001@2b552920]" name="setupExtentReports" is-config="true" duration-ms="263" started-at="2020-10-18T16:22:26 IST" finished-at="2020-10-18T16:22:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:MyinfoTestCases.TC_Myinfo_001@2b552920]" name="browser" is-config="true" duration-ms="19316" started-at="2020-10-18T16:22:27 IST" finished-at="2020-10-18T16:22:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:MyinfoTestCases.TC_Myinfo_001@2b552920]" name="verifyUser" duration-ms="5675" started-at="2020-10-18T16:22:46 IST" data-provider="testData" finished-at="2020-10-18T16:22:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyinfoTestCases.TC_Myinfo_001@2b552920]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-10-18T16:24:11 IST" finished-at="2020-10-18T16:24:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="blushReport()[pri:0, instance:MyinfoTestCases.TC_Myinfo_001@2b552920]" name="blushReport" is-config="true" duration-ms="561" started-at="2020-10-18T16:24:11 IST" depends-on-methods="MyinfoTestCases.TC_Myinfo_006.tearDown, MyinfoTestCases.TC_Myinfo_002.teatDown, MyinfoTestCases.TC_Myinfo_001.tearDown" finished-at="2020-10-18T16:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blushReport -->
+      </class> <!-- MyinfoTestCases.TC_Myinfo_001 -->
+      <class name="MyinfoTestCases.TC_Myinfo_006">
+        <test-method status="PASS" signature="browser()[pri:0, instance:MyinfoTestCases.TC_Myinfo_006@1f36e637]" name="browser" is-config="true" duration-ms="11946" started-at="2020-10-18T16:23:45 IST" finished-at="2020-10-18T16:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="VerifyESSUserCanEditFields()[pri:0, instance:MyinfoTestCases.TC_Myinfo_006@1f36e637]" name="VerifyESSUserCanEditFields" duration-ms="13096" started-at="2020-10-18T16:23:57 IST" finished-at="2020-10-18T16:24:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyESSUserCanEditFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyinfoTestCases.TC_Myinfo_006@1f36e637]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-10-18T16:24:11 IST" depends-on-methods="MyinfoTestCases.TC_Myinfo_002.teatDown, MyinfoTestCases.TC_Myinfo_001.tearDown" finished-at="2020-10-18T16:24:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyinfoTestCases.TC_Myinfo_006 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
