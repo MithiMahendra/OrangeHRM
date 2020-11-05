@@ -49,6 +49,7 @@ public class TC_Myinfo_002 extends Base {
 	}
 	@AfterTest
 	public void teatDown() {
+		System.out.println("Browsers are closed");
 		driver.quit();
 	}
 }
