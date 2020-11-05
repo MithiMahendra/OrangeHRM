@@ -82,6 +82,7 @@ public class TC_Myinfo_006 extends Base {
 	}
 	@AfterTest
 	public void tearDown() {
+		System.out.println("TestCase Passed");
 		driver.close();
 	}
 
