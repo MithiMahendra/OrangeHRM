@@ -27,7 +27,7 @@ public class Base {
 	public WebDriver browserSetup() throws IOException {
 
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\mithi\\eclipse-workspace\\Myinfo\\Resources\\Data.properties");
+				System.getProperty("user.dir")+"/Resources/Data.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 		browser = prop.getProperty("browser");
@@ -40,7 +40,7 @@ public class Base {
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("IE")) {
 			System.setProperty("webdriver.ie.driver",
-					"C:\\Users\\mithi\\eclipse-workspace\\EndToEnd\\Resources\\IEDriverServer.exe");
+					"C:\\Users\\user\\git\\OrangeHRM\\Resources\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
